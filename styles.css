@@ -1,0 +1,66 @@
+.contenedor {
+	width: 90%;
+	max-width: 800px;
+	margin: auto;
+	padding: 40px 0;
+}
+
+.encabezado {
+	padding: 15px;
+	display: grid;
+	grid-template-columns: 3fr 1fr;
+	align-items: center;
+}
+
+.logo img {
+	height: 100px;
+}
+
+.contenedor-medio {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 40px;
+}
+
+.formulario {
+	height: 100%;
+}
+
+#Titulo {
+	font-family: sans-serif;
+}
+
+input[type="text"] {
+	height: 20px;
+	border: 3px solid gold;
+	border-radius: 8px;
+	color: grey;
+	font-size: 1.1rem;
+}
+
+input[type="email"] {
+	height: 20px;
+	border: 3px solid gold;
+	border-radius: 8px;
+	color: grey;
+	font-size: 1.1rem;
+}
+
+.orange-btn {
+	padding: 10px;
+	border-radius: 4px;
+	background: orange;
+	text-decoration: none;
+	color: white;
+}
+
+.orange-btn:hover {
+	background: darkorange;
+}
+
+.contenedor-inferior {
+	padding: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
